@@ -1,6 +1,6 @@
 import os
 
-file_treino = "treino.txt"
+file_treino = "train.txt"
 file_haar = "output/haar_cascade.txt"
 
 haar_cascade = {}

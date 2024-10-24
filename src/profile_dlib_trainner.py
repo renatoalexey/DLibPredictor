@@ -16,7 +16,7 @@ options.nu = 0.05
 options.tree_depth = 2
 options.be_verbose = True
 
-training_xml_path = os.path.join(faces_folder, "output/training_with_face_landmarks.xml")
+training_xml_path = os.path.join(faces_folder, "training_with_face_landmarks.xml")
 print("Training file: {}".format(training_xml_path))
 dlib.train_shape_predictor(training_xml_path, "./output/predictor.dat", options)
 
